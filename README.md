@@ -1,3 +1,4 @@
 # JICFO
 Japanese In Cafe Food Orders
-Fomerly (Japanese Internet Cafe Food Orders_
+Fomerly (Japanese Internet Cafe Food Orders)
+
