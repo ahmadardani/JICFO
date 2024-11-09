@@ -1,0 +1,18 @@
+/*Ini adalah css*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.container2{
+    width: 100%;
+    margin: 0 auto;
+    line-height: 50px;
+    background-color: #4CC9FE;
+}
