@@ -170,7 +170,7 @@
         </div>
 
         <p class="text-center">
-            <a href="http://localhost/food-order/foods.php">See All Foods</a>
+            <a href="http://localhost/JICFO/foods.php">See All Foods</a>
         </p>
     </section>
     <!-- Food Menu Section Berakhir disini -->
