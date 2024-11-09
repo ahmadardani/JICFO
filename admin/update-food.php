@@ -1,4 +1,4 @@
-<?php include('partials/menu.php'); ?>
+<?php include('includes/menu.php'); ?>
 
 <?php 
     //CHeck whether id is set or not 

@@ -1,4 +1,4 @@
-<?php include('partials/menu.php'); ?>
+<?php include('includes/menu.php'); ?>
     <div class="wrapper">
         <h1>Manage Order</h1>
     </div>
