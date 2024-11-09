@@ -1,1 +1,1 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('includes/menu.php'); ?>
