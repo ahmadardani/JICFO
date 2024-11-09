@@ -1,4 +1,4 @@
-    <?php include('includes/menu.php'); ?>
+<?php include('includes/menu.php'); ?>
    <!-- Food Search Section -->
    <section class="food-search text-center">
         <div class="container">
