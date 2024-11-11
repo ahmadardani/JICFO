@@ -94,4 +94,4 @@
     
 </div>
 
-<?php include('partials-front/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
