@@ -1,16 +1,19 @@
+<?php include('config/constants.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Agar website menjadi responsif -->
+    <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JICFO</title>
-    <!-- Nyambung ke file css di css/style.css -->
+
+    <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Bagian Navbar (Pilihan Menu) -->
+    <!-- Navbar Section Starts Here -->
      <section class="navbar">
         <div class="container2">
             <div class="text-center2">
@@ -50,3 +53,4 @@
             <div class="clearfix"></div>
         </div>
     </section>
+    <!-- Navbar Section Ends Here -->

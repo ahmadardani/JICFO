@@ -1,3 +1,5 @@
+
+/* CSS for All */
 *{
     margin: 0 0;
     padding: 0 0;
@@ -14,7 +16,6 @@
     line-height: 50px;
     background-color: #4CC9FE;
 }
-
 .img-responsive{
     width: 100%;
 }
@@ -22,12 +23,6 @@
     border-radius: 15px;
 }
 
-.clearfix{
-    clear: both;
-    float: none;
-}
-
-/* Untuk teks*/
 .text-right{
     text-align: right;
 }
@@ -40,29 +35,14 @@
 .text-white{
     color: white;
 }
-/* Navbar Section */
-
-.loginbutton{
-    float:right;
-    line-height: 14px;
-    font-size: 1.2rem;
-    font-weight: bold;
+.text-center2{
+    text-align: center;
 }
-.menu{
-    line-height: 14px;
-    font-size: 1.2rem;
-}
-.menu ul{
-    list-style-type: none;
+.clearfix{
+    clear: both;
+    float: none;
 }
 
-.menu ul li{
-    display:inline-block;
-    padding: 1%;
-    font-weight: bold;
-}
-
-/* Style untuk lainnya*/
 a{
     color: #45637d;
     text-decoration: none;
@@ -116,6 +96,29 @@ fieldset{
 .success{
     padding: 2%;
     color: green;
+}
+
+
+/* CSSS for navbar section */
+
+.loginbutton{
+    float:right;
+    line-height: 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.menu{
+    line-height: 14px;
+    font-size: 1.2rem;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display:inline-block;
+    padding: 1%;
+    font-weight: bold;
 }
 
 /* CSS for Food SEarch Section */

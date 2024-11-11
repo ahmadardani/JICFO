@@ -117,4 +117,4 @@
     
 
 
-<?php include('partials/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
