@@ -31,7 +31,7 @@
 <section class="food-search text-center">
     <div class="container">
         
-        <h2>Foods on <a href="#" class="text-white">"<?php echo $category_title; ?>"</a></h2>
+        <h2>Available Foods on <a href="#" class="text-white">"<?php echo $category_title; ?>"</a></h2>
 
     </div>
 </section>

@@ -38,6 +38,12 @@
 .text-center2{
     text-align: center;
 }
+.text-black{
+    color: black;
+}
+.text-gray{
+    color: #45637d;
+}
 .clearfix{
     clear: both;
     float: none;
@@ -310,7 +316,6 @@ fieldset{
 }
 /* Food order page css */
 .food-order{
-    background-image: url(../images/bg3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

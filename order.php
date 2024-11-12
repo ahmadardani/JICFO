@@ -38,13 +38,13 @@
 ?>
 
 <!-- Food Search Section-->
-<section class="food-order">
+<section class="food-order" style="background-image: url(images/hakone.jpg); background-size: cover; background-position: center; background-attachment: fixed; width: 100%;height: 100vh;">
     <div class="container">        
-        <h2 class="text-center text-white">Please confirm to place order</h2>
+        <h2 class="text-center text-gray">Please confirm to place order</h2>
 
-        <form action="" method="POST" class="order">
+        <form action="" method="POST" class="order" style="border: 2px solid white; background-color: #4CC9FE;">
             <fieldset>
-                <legend style="color:white;">Selected Food</legend>
+                <legend style="color:white;">&nbspSelected Food&nbsp</legend>
 
                 <div class="food-menu-img">
                     <?php 
@@ -71,7 +71,7 @@
                     <h3 style="color:white;"><?php echo $title; ?></h3>
                     <input type="hidden" name="food" value="<?php echo $title; ?>">
 
-                    <p class="food-price" style="color:white;">₹<?php echo $price; ?></p>
+                    <p class="food-price" style="color:white;">Rp.<?php echo $price; ?></p>
                     <input type="hidden" name="price" value="<?php echo $price; ?>">
 
                     <div class="order-label" style="color:white;">Quantity</div>
@@ -82,7 +82,10 @@
             </fieldset>
             
             <fieldset>
-                <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                <input type="submit" name="submit" value="Confirm Order" class="btn" style="background-color: #45637d; color: 
+                white; padding: 10px 20px; font-size: 16px; border-radius: 4px; border: none; cursor: pointer; transition: background-color 0.3s ease, color 0.3s ease;"     
+                onmouseover="this.style.backgroundColor='white'; this.style.color='#45637d';"
+                onmouseout="this.style.backgroundColor='#45637d'; this.style.color='white';">
             </fieldset>
 
         </form>
