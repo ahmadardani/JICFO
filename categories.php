@@ -4,9 +4,9 @@
 
 
     <!-- CAtegories Section Starts Here -->
-    <section class="categories">
+    <section class="categories" style="background-image: url('images/hakone2.jpg');">
         <div class="container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center text-white">Explore Foods</h2>
 
             <?php 
 
