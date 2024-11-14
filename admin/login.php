@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Login - Food Order System</title>
+        <title>Admin Login</title>
         <link rel="stylesheet" href="../css/adminlogin.css">
     </head>
 
@@ -10,9 +10,9 @@
         
         <div class="login">
             <br><br><br>
-            <h2 class="text-center">Admin Login</h2>
+            <h2 class="text-center text-white">Admin Login</h2>
             <br><br>
-
+            
             <?php 
                 if(isset($_SESSION['login']))
                 {
@@ -42,7 +42,7 @@
             </form>
             </div>
             <div class="image">
-      <img src="../images/image.jpg">
+      <img src="../images/jicfo-square.png">
     </div>
             </div>
             <!-- Login Form Ends HEre -->

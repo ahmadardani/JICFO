@@ -174,5 +174,7 @@
         <a href="http://localhost/JICFO/foods.php">See All Foods</a>
     </p>
 </section>
+
+<?php include('includes/footer.php'); ?>
 <!-- fOOD Menu Section Ends Here -->
 

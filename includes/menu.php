@@ -16,7 +16,7 @@
     <!-- Navbar Section Starts Here -->
      <section class="navbar">
         <div class="container2">
-            <div class="text-center2">
+            <div class="text-center text-white">
             <h1>JICFO</h1>
         </div>
     </section>
