@@ -114,7 +114,7 @@
  
                 </table>
  
-    
+                <div class="main-content"></div>
 
 
 <?php include('includes/footer.php'); ?>

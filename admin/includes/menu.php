@@ -8,7 +8,7 @@
 
 <html>
     <head>
-        <title>Food Order Website - Home Page</title>
+        <title>Admin - JICFO</title>
         <link rel="stylesheet" href="../css/admin.css">
         <link rel="stylesheet" href=
     "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
