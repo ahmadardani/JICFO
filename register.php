@@ -80,15 +80,27 @@
             <link rel="stylesheet" href="css/style.css">
     </head>
         
-    <body>
+    <?php
+$background_css = "
+    background-image: url('images/night.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh; /* Ensures it covers full screen on different devices */
+    margin: 0;
+    padding: 0;
+";
+?>
+
+    <body style="<?php echo $background_css; ?>">
     <section class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="http://localhost/JICFO/" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                    <img src="images/jicfo-logo.png" alt="JICFO" class="img-responsive2">
                 </a>
             </div>
-<br>
             <div class="clearfix"></div>
         </div>
     </section>
@@ -136,10 +148,10 @@
        
     ?>
         
-    <div class="container my-4 ">
+    <div class="container my-4 " style="background-color: white;">
         
-        <h2 class="text-center">Signup Here</h2> 
-        <h5>*All fields are required</h5>
+        <h2 class="text-center">Sign Up Here</h2> 
+        <h5 >*All fields are required</h5>
         <form action="" method="post">
         
             <div class="form-group"> 
@@ -163,26 +175,26 @@
                 <input type="password" class="form-control"
                     id="cpassword" name="cpassword" required>
         
-                <small id="emailHelp" class="form-text text-muted">
+                <small id="emailHelp" class="form-text" >
                 Make sure to type the same password
                 </small> 
                 
             </div>  
             <div class="form-group"> 
-                <label for="username">Email</label> 
+                <label for="username" >Email</label> 
             <input type="email" class="form-control" 
                 name="customer_email" aria-describedby="emailHelp" required>    
             </div>
             <div class="form-group"> 
-                <label for="username">Phone</label> 
+                <label for="username" >Phone</label> 
             <input type="number" required class="form-control" 
                 name="customer_contact" aria-describedby="emailHelp">    
                 
-                <small id="emailHelp" class="form-text text-muted">
+                <small id="emailHelp" class="form-text">
                 Please Enter a valid 10 digit mobile number
                 </small> 
             </div>
-            <label for="address">Address</label> 
+            <label for="address" >Address</label> 
             <div class="form-group">
                
                 <textarea name="customer_address"
@@ -190,7 +202,7 @@
          </textarea></div>    
         
             <button type="submit" class="btn btn-primary">
-            SignUp
+            Sign Up
             </button> 
         </form> 
     </div>

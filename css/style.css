@@ -16,8 +16,23 @@
     line-height: 50px;
     background-color: #4CC9FE;
 }
+.background-web{
+    background-image: url('images/night.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh; /* Ensures it covers full screen on different devices */
+    margin: 0;
+    padding: 0;
+}
 .img-responsive{
     width: 100%;
+}
+.img-responsive2{
+    width: 15%;
+    display: block;
+    margin: auto;
 }
 .img-curve{
     border-radius: 15px;
@@ -278,6 +293,7 @@ fieldset{
 /* Your orders Table */
 
 .content-table {
+    color: white;
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
@@ -300,11 +316,11 @@ fieldset{
 }
 
 .content-table tbody tr {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ffffff;
 }
 
 .content-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 }
 
 .content-table tbody tr:last-of-type {
@@ -331,3 +347,16 @@ fieldset{
     border-radius: 5px;
 }
 
+.myorder2{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.full-content {
+    min-height: 33.3vh; /* Full height */
+    width: 50vw; /* Full width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}

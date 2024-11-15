@@ -99,3 +99,4 @@
 
 </section>
 <!-- fOOD Menu Section Ends Here -->
+<?php include('includes/footer.php'); ?>

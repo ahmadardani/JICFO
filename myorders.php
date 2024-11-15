@@ -1,13 +1,11 @@
 <?php include('includes/menu.php'); ?>
 
 <div class="main-content">
-    <div class="wrapper">
-        <h1 class="text-center">Order Details</h1>
-
-                <br /><br /><br />
-                <br><br>
-                <center>
-                <table class="content-table">
+    <div class="wrapper" style="background-color: #ffffff;">
+        <h3 class="text-center text-white" style="background-color: #4CC9FE; margin: 0 auto; line-height: 50px;">Order Details</h3>
+                <center>                    
+                <table class="content-table" style="background-color: #4CC9FE;">
+                    
                     <tr>
                         <th>S.N. </th>
                         <th>Food </th>
@@ -17,7 +15,7 @@
                         <th>Order Date </th>
                         <th>Status </th>
                     </tr>
-<hr>
+
                     <?php 
                         //Get all the orders from database
                         $sql = "SELECT * FROM tbl_order WHERE u_id={$_SESSION['u_id']} ORDER BY id DESC"; // DIsplay the Latest Order at First
@@ -89,9 +87,10 @@
 
  
                 </table>
+
                 </center>
+                <div class="full-content"></div>
     </div>
-    
 </div>
 
 <?php include('includes/footer.php'); ?>

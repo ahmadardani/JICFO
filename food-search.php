@@ -106,3 +106,4 @@
 
     </section>
     <!-- Food Menu Section Berakhir disini -->
+    <?php include('includes/footer.php'); ?>
