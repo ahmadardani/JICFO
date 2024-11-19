@@ -1,3 +1,6 @@
+<?php
+ob_start(); // Start output buffering
+?>
 <?php include('includes/menu.php'); ?>
 
 <div class="main-content">
@@ -168,7 +171,8 @@
                         // Image is SElected
                         //A. REnamge the Image
                         //Get the extension of selected image (jpg, png, gif, etc.) "vijay-thapa.jpg" vijay-thapa jpg
-                        $ext = end(explode('.', $image_name));
+                        $temp = explode('.', $image_name);
+                        $ext = end($temp);
 
                         // Create New Name for Image
                         $image_name = "Food-Name-".rand(0000,9999).".".$ext; //New Image Name May Be "Food-Name-657.jpg"
@@ -244,3 +248,6 @@
 
     </div>
 </div>
+<?php
+ob_end_flush(); // Flush and turn off output buffering
+?>

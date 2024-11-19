@@ -1,4 +1,7 @@
-<?php include('includes/menu.php'); ?>
+<?php
+ob_start(); // Start output buffering
+include('includes/menu.php'); 
+?>
 
 <?php 
     //CHeck whether id is set or not 
@@ -284,3 +287,7 @@
 </div>
 
 <?php include('includes/footer.php'); ?>
+
+<?php
+ob_end_flush(); // Flush and send the output
+?>
