@@ -81,18 +81,33 @@ table tr td{
 /* CSS for Menu */
 .menu{
     background-color: #133E87;
+    height: 60px; /* atau 70px, sesuai selera */
+    display: flex;
+    align-items: center;
 }
+
+.menu .wrapper {
+    width: 100%;
+}
+
 .menu ul{
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 .menu ul li{
-    display: inline;
-    padding: 1%;
+    padding: 0 15px;
 }
 .menu ul li a{
     text-decoration: none;
     font-weight: bold;
-    color:  #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 60px; /* samakan dengan tinggi menu */
 }
 .menu ul li a:hover{
     color:  #5A7692;

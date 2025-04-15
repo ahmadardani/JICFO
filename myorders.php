@@ -3,9 +3,9 @@
 <div class="main-content">
     <div class="wrapper" style="background-color: #ffffff;">
         <h3 class="text-center text-white" style="background-color: #4CC9FE; margin: 0 auto; line-height: 50px;">Order Details</h3>
-                <center>                    
-                <table class="content-table" style="background-color: #4CC9FE;">
-                    
+                <center>
+                <table class="content-table" style="background-color: #4CC9FE; color: #003366;">
+
                     <tr>
                         <th>S.N. </th>
                         <th>Food </th>
@@ -16,7 +16,7 @@
                         <th>Status </th>
                     </tr>
 
-                    <?php 
+                    <?php
                         //Get all the orders from database
                         $sql = "SELECT * FROM tbl_order WHERE u_id={$_SESSION['u_id']} ORDER BY id DESC"; // DIsplay the Latest Order at First
                         //Execute Query
@@ -25,7 +25,7 @@
                         $count = mysqli_num_rows($res);
 
                         $sn = 1; //Create a Serial Number and set its initail value as 1
-                     
+
                         if($count>0)
                         {
                             //Order Available
@@ -51,7 +51,7 @@
                                         <td><?php echo $order_date; ?></td>
 
                                         <td>
-                                            <?php 
+                                            <?php
                                                 // Ordered, On Delivery, Delivered, Cancelled
 
                                                 if($status=="Ordered")
@@ -85,7 +85,7 @@
                         }
                     ?>
 
- 
+
                 </table>
 
                 </center>

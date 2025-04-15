@@ -6,8 +6,8 @@
         <br><br>
 
 
-        <?php 
-        
+        <?php
+
             //CHeck whether id is set or not
             if(isset($_GET['id']))
             {
@@ -44,11 +44,11 @@
                 //REdirect to Manage ORder PAge
                 header('location:'.SITEURL.'admin/manage-order.php');
             }
-        
+
         ?>
 
         <form action="" method="POST">
-        
+
             <table class="tbl-30">
                 <tr>
                     <td>Food Name</td>
@@ -58,7 +58,7 @@
                 <tr>
                     <td>Price</td>
                     <td>
-                        <b> ₹ <?php echo $price; ?></b>
+                        <b> Rp. <?php echo $price; ?></b>
                     </td>
                 </tr>
 
@@ -88,11 +88,11 @@
                     </td>
                 </tr>
             </table>
-        
+
         </form>
 
 
-        <?php 
+        <?php
             //CHeck whether Update Button is Clicked or Not
             if(isset($_POST['submit']))
             {
@@ -104,7 +104,7 @@
                 $total = $price * $qty;
                 $status = $_POST['status'];
                 //Update the Values
-                $sql2 = "UPDATE tbl_order SET 
+                $sql2 = "UPDATE tbl_order SET
                     qty = $qty,
                     total = $total,
                     status = '$status'
