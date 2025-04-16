@@ -4,9 +4,9 @@
     <div class="wrapper" style="background-color: #ffffff;">
         <h3 class="text-center text-white" style="background-color: #4CC9FE; margin: 0 auto; line-height: 50px;">Order Details</h3>
                 <center>
-                <table class="content-table" style="background-color: #4CC9FE; color: #003366;">
+                <table class="content-table" style="background-color: #fffffff; color: #003366;">
 
-                    <tr>
+                    <tr style="background-color: #4CC9FE; color: white;"> 
                         <th>S.N. </th>
                         <th>Food </th>
                         <th>Price </th>
