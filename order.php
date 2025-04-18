@@ -1,7 +1,5 @@
 <?php
-include('includes/menu.php');
-include('config/constants.php'); // Pastikan koneksi dan SITEURL didefinisikan di sini
-session_start();
+include('includes/menu.php'); 
 
 // Mengecek jika ID makanan dikirimkan
 if (isset($_GET['food_id']) && is_numeric($_GET['food_id'])) {
