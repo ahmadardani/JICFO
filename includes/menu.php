@@ -7,6 +7,7 @@
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JICFO</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
