@@ -129,9 +129,17 @@ table tr td{
 
 
 /* CSS for Footer */
-.footer{
-    background-color:  #133E87;
+.footer {
+    background-color: #133E87;
     color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0; /* Pastikan tidak ada padding di sini */
 }
 
 /* CSS for Login */

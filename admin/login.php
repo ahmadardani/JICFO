@@ -3,6 +3,7 @@
 <html>
     <head>
         <title>Admin Login</title>
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
         <link rel="stylesheet" href="../css/adminlogin.css">
     </head>
 

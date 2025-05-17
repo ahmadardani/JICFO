@@ -9,6 +9,7 @@
 <html>
     <head>
         <title>Admin - JICFO</title>
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
         <link rel="stylesheet" href="../css/admin.css">
         <link rel="stylesheet" href=
     "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
